@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "First product",
+            "description": "First product",
+            "element": "technique"
+        },
+        {
+            "id": 2,
+            "name": "Unknown product",
+            "description": "Second product",
+            "element": "book"
+        },
+        {
+            "id": 3,
+            "name": "Third product",
+            "description": "Third product",
+            "element": "clothes"
+        }
+    ],
+    "filters": [
+        "all",
+        "technique",
+        "book",
+        "clothes",
+        "other"
+    ]
+}
