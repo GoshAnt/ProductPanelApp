@@ -1,29 +1,49 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "First product",
-            "description": "First product",
-            "element": "technique"
-        },
-        {
-            "id": 2,
-            "name": "Unknown product",
-            "description": "Second product",
-            "element": "book"
-        },
-        {
-            "id": 3,
-            "name": "Third product",
-            "description": "Third product",
-            "element": "clothes"
-        }
-    ],
-    "filters": [
-        "all",
-        "technique",
-        "book",
-        "clothes",
-        "other"
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "First product",
+      "description": "First product",
+      "element": "technique"
+    },
+    {
+      "id": 3,
+      "name": "Third product",
+      "description": "Third product",
+      "element": "clothes"
+    },
+    {
+      "id": "26d2d63c-984f-4c22-8291-5b3c61190855",
+      "name": "MOBILE",
+      "description": "MOBILE PHONE",
+      "element": "technique"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "all",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "technique",
+      "label": "technique",
+      "className": "btn-danger"
+    },
+    {
+      "name": "book",
+      "label": "book",
+      "className": "btn-primary"
+    },
+    {
+      "name": "clothes",
+      "label": "clothes",
+      "className": "btn-success"
+    },
+    {
+      "name": "other",
+      "label": "other",
+      "className": "btn-secondary"
+    }
+  ]
 }
